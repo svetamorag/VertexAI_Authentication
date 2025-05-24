@@ -7,7 +7,10 @@ This is a short compilation of the official documentation:
 -   [Application Default Credentials](https://cloud.google.com/docs/authentication/application-default-credentials)
 
 
+[Audio version](https://github.com/svetamorag/VertexAI_Authentication/blob/main/VertexAI_Auth_Eng.mp3)
+
 [Hebrew Version](https://github.com/svetamorag/VertexAI_Authentication/blob/main/VertexAI_Auth_Heb.md)
+[Hebrew audio version](https://github.com/svetamorag/VertexAI_Authentication/blob/main/VertexAI_Auth_Heb.mp3)
 
 Authentication is the process of verifying *who* is making a request, establishing the identity of a user or an application. This is a prerequisite for authorization, which determines *what resources* the authenticated identity can access and *what level of access* they have. Understanding the distinction between authentication and authorization is crucial for diagnosing access issues. Vertex AI uses Identity and Access Management (IAM) for authorization after successful authentication.
 
