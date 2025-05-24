@@ -29,7 +29,7 @@ Depending on where your code is running and the tools you are using, you can aut
     1.  The `GOOGLE_APPLICATION_CREDENTIALS` environment variable can point to a credential JSON file (Workforce Identity Federation config, Workload Identity Federation config, or a service account key).
     2.  A credential file created by using the `gcloud auth application-default login` command.
     3.  The attached service account, returned by the metadata server.
-    4.  Sample usage (terminal): `$env:GOOGLE_APPLICATION_CREDENTIALS="C:\\Users\\sveta\\Documents\\DevProjects\\VertexAI Auth\\key.json"`
+    4.  Sample usage (terminal): `$env:GOOGLE_APPLICATION_CREDENTIALS="C:\\LocalPath\\key.json"`
 -   **Limitations/Considerations:** ADC itself is a strategy; limitations depend on the underlying credential source it finds.
 
 ## 2. Using User Credentials via `gcloud auth application-default login` (Recommended for Local Development)
